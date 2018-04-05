@@ -6,3 +6,6 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 const obj = {milk:"2 liters"}
 updateObjectWithKeyAndValue(obj, 'chocolate', '1 cup')
 
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
+  return 
+}
