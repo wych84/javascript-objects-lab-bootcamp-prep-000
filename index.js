@@ -1,1 +1,1 @@
-function Objects 
+function Objects(typesof, )
