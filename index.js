@@ -1,1 +1,3 @@
-function Objects(typesof, )
+function Objects() {
+  typesof
+}
