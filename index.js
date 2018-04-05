@@ -16,3 +16,6 @@ const joy = {milk:"2 liters"}
 destructivelyUpdateObjectWithKeyAndValue(joy, 'water', '3 liters')
 
 
+function deleteFromObjectByKey(object, key) {
+  
+}
