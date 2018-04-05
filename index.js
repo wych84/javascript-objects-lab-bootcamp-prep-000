@@ -18,8 +18,8 @@ destructivelyUpdateObjectWithKeyAndValue(joy, 'water', '3 liters')
 
 
 function deleteFromObjectByKey(object, key) {
-  var objs = { foo: 'bar', baby: 'cry'}
-  var newObjs = Object.assign({}, objs, { [foo]: 'bar'});
+  var objs = { foo: 'bar'}
+  var newObjs = Object.assign({}, objs);
   delete newObjs.foo;
-  return 
+  return objs
 }
