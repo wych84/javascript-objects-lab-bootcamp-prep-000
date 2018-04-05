@@ -1,3 +1,1 @@
-function Objects() {
-  recipes = 
-}
+var recipes = { typesOf: "korean" }
