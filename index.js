@@ -11,5 +11,5 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
   return obj;
 } 
 
-const obj = {milk:"2 liters"}
-destructivelyUpdateObjectWithKeyAndValue(obj, 'water', '3 liters')
+const joy = {milk:"2 liters"}
+destructivelyUpdateObjectWithKeyAndValue(joy, 'water', '3 liters')
