@@ -23,3 +23,5 @@ function deleteFromObjectByKey(object, key) {
   delete newObjs.foo;
   return objs
 }
+
+
