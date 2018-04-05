@@ -7,5 +7,9 @@ const obj = {milk:"2 liters"}
 updateObjectWithKeyAndValue(obj, 'chocolate', '1 cup')
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-  obj[key]:
+  obj[key] = value;
+  return obj;
 } 
+
+const obj = {milk:"2 liters"}
+destructivelyUpdateObjectWithKeyAndValue(obj, 'water', '3 liters')
